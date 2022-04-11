@@ -1,1 +1,43 @@
-titulo-principal
+.titulo-principal{
+    font-family: 'Times New Roman', serif;
+    font-size: 28px;
+    color: limegreen;
+}
+.titulo-secundario{
+    font-family: 'Times New Roman', serif;
+    font-size: 22px;
+    color: limegreen;  
+}
+body{
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    margin: 0 10% 0 10%;
+} 
+body p{
+    text-align: justify;
+}
+.paragrafo-especial{
+    border: 3px solid limegreen;
+    padding: 10px;
+    background-image: url("imagens/fundo.png");
+}
+img{
+    display: block;
+    margin: 0 auto;
+    border: 8px solid limegreen;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    width: 600px;
+}
+th{
+    border: 1px solid black;
+    background-color: gray;
+    color: white;
+}
+td{
+    border: 1px solid black;
+}
